@@ -14,6 +14,6 @@
     "strapi-plugin-content-manager": "3.6.11",
     "strapi-connector-bookshelf": "3.6.11",
     "knex": "0.21.19",
-    "pg": "8.11.3"
+    "sqlite3": "5.1.6"
   }
 }
