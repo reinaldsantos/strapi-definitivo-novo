@@ -3,13 +3,11 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "start": "strapi start",
-    "develop": "strapi develop"
+    "start": "strapi start"
   },
   "dependencies": {
-    "strapi": "3.6.11",
-    "strapi-admin": "3.6.11",
-    "strapi-plugin-users-permissions": "3.6.11",
+    "@strapi/strapi": "4.24.2",
+    "@strapi/plugin-users-permissions": "4.24.2",
     "pg": "8.11.3"
   }
 }
