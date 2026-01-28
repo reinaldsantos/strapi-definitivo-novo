@@ -1,0 +1,12 @@
+﻿version: '3'
+services:
+  strapi:
+    build: .
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: ${DATABASE_URL}
+      JWT_SECRET: ${JWT_SECRET}
+      ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET}
+      APP_KEYS: ${APP_KEYS}
+    ports:
+      - "1337:1337"

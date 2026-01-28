@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "develop": "strapi develop",
+    "build": "strapi build",
     "start": "strapi start"
   },
   "dependencies": {
-    "@strapi/plugin-users-permissions": "4.24.2",
     "@strapi/strapi": "4.24.2",
+    "@strapi/plugin-users-permissions": "4.24.2",
     "pg": "8.11.3"
   }
 }
