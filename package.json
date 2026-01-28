@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "strapi-definitivo-novo",
   "private": true,
   "version": "0.1.0",
@@ -17,7 +17,7 @@
     "strapi-plugin-email": "3.6.11",
     "strapi-plugin-i18n": "3.6.11",
     "strapi-connector-bookshelf": "3.6.11",
-    "knex": "0.21.19",
+    "knex": "2.4.0",
     "pg": "8.11.3"
   }
 }
