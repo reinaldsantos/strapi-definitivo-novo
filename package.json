@@ -2,7 +2,6 @@
   "name": "strapi-definitivo-novo",
   "private": true,
   "version": "0.1.0",
-  "description": "Strapi definitivo funcional",
   "scripts": {
     "build": "strapi build",
     "start": "strapi start",
@@ -11,11 +10,7 @@
   "dependencies": {
     "@strapi/strapi": "5.33.4",
     "@strapi/plugin-users-permissions": "5.33.4",
-    "@strapi/plugin-i18n": "5.33.4",
-    "pg": "8.11.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-router-dom": "5.3.4"
+    "pg": "8.11.3"
   },
   "engines": {
     "node": ">=20.0.0",
