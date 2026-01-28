@@ -3,21 +3,13 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "start": "strapi start",
-    "develop": "strapi develop"
+    "start": "strapi start --src-dir=src",
+    "develop": "strapi develop --src-dir=src"
   },
   "dependencies": {
     "strapi": "3.6.11",
     "strapi-admin": "3.6.11",
-    "strapi-hook-ejs": "3.6.11",
-    "strapi-plugin-content-type-builder": "3.6.11",
-    "strapi-plugin-content-manager": "3.6.11",
     "strapi-plugin-users-permissions": "3.6.11",
-    "strapi-plugin-upload": "3.6.11",
-    "strapi-plugin-email": "3.6.11",
-    "strapi-plugin-i18n": "3.6.11",
-    "strapi-connector-bookshelf": "3.6.11",
-    "knex": "0.21.19",
     "pg": "8.11.3"
   }
 }
