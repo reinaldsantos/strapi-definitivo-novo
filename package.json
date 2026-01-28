@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "start": "strapi start --src-dir=src",
-    "develop": "strapi develop --src-dir=src"
+    "start": "strapi start",
+    "develop": "strapi develop"
   },
   "dependencies": {
     "strapi": "3.6.11",
