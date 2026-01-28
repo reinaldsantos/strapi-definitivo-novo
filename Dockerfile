@@ -7,7 +7,6 @@ COPY package*.json ./
 RUN npm ci --only=production --legacy-peer-deps
 
 COPY . .
-RUN npm run build
 
 EXPOSE 1337
 

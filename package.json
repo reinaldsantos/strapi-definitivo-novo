@@ -1,10 +1,10 @@
-{
+﻿{
   "name": "strapi-definitivo-novo",
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "build": "strapi build",
-    "start": "strapi start"
+    "start": "strapi start",
+    "develop": "strapi develop"
   },
   "dependencies": {
     "@strapi/strapi": "4.24.2",
