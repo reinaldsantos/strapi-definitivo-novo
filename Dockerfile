@@ -1,10 +1,9 @@
-﻿FROM node:18-alpine
-RUN apk add --no-cache python3 make g++
+﻿FROM node:14-alpine
 
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm install --production --legacy-peer-deps --ignore-scripts
+RUN npm install --production --legacy-peer-deps
 
 COPY . .
 
