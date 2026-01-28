@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "strapi-definitivo-novo",
   "private": true,
   "version": "0.1.0",
@@ -7,8 +7,8 @@
     "develop": "strapi develop"
   },
   "dependencies": {
-    "@strapi/strapi": "4.24.2",
-    "@strapi/plugin-users-permissions": "4.24.2",
+    "@strapi/strapi": "5.34.0",
+    "@strapi/plugin-users-permissions": "5.34.0",
     "pg": "8.11.3"
   }
 }
