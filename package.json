@@ -7,12 +7,12 @@
     "develop": "strapi develop"
   },
   "dependencies": {
-    "@strapi/strapi": "4.24.2",
-    "@strapi/plugin-users-permissions": "4.24.2",
-    "pg": "^8.11.3"
+    "@strapi/strapi": "5.33.4",
+    "@strapi/plugin-users-permissions": "5.33.4",
+    "pg": "8.11.3"
   },
   "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=6.0.0"
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
   }
 }
